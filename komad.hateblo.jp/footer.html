@@ -1,0 +1,29 @@
+﻿<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    (function($) {
+        $(".menu-toggle").on("click", function() {
+            $(".main-navigation").toggleClass("toggled");
+        });
+    })(jQuery);
+</script>
+
+<!-- CopyRight http://bulldra.http://bulldra.hatenablog.com -->
+<script src="https://www.google.com/jsapi"></script>
+<script src="http://bulldra.github.io/commons.js" charset="utf-8"></script>
+<script src="http://bulldra.github.io/breadcrumb.js" charset="utf-8"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+/* http://bulldra.hatenablog.com/entry/page-seekbar */
+$(function(){
+  var viewSeekbar = function() {
+   $('#pagebar').css('width', (($(window).scrollTop() + $(window).height()) / $('body').height() * 100.0) + "%");
+  }
+  viewSeekbar();
+  $(window).scroll(viewSeekbar);
+  $('#pagebar-bg').click(function(e){
+    $('html,body').animate({ scrollTop: $('body').height() * (e.pageX - e.target.offsetLeft) / $(window).width() - $(window).height()}, 300);
+    return false;
+  });
+});
+</script>

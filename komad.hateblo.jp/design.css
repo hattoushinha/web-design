@@ -1,0 +1,30 @@
+﻿/* <system section="theme" selected="6653586347149180725"> */
+@import url("http://hatenablog.com/theme/6653586347149180725.css");
+/* </system> */
+
+.categories a{
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+}
+
+.head_share_bookmark{
+  color: #ffffff !important;
+  font-size:80%;
+  position:absolute;
+  top: 5px;
+  right: 5px;
+  font-weight: bold;
+}
+
+.urllist-title-link {
+    font-size: 1.5em;
+}
+
+#blog-title {
+    padding: 0;
+}
+
+.about {
+	list-style-type: none;
+}
