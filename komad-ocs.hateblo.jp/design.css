@@ -1,3 +1,16 @@
 ﻿/* <system section="theme" selected="6653586347149180725"> */
 @import url("http://hatenablog.com/theme/6653586347149180725.css");
 /* </system> */
+
+.profile{
+	list-style-type: none;
+	margin: 0;
+	font-size: 90%;
+	line-height: 1.8em;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+}
+
+.profile-icon-link{
+	cursor: default;
+}
