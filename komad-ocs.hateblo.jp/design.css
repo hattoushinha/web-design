@@ -1,13 +1,3 @@
 ﻿/* <system section="theme" selected="6653586347149180725"> */
 @import url("http://hatenablog.com/theme/6653586347149180725.css");
 /* </system> */
-
-.categories a{
-    display: inline-block;
-    float: none;
-    margin-right: 0;
-}
-
-.urllist-title-link {
-    font-size: 1.5em;
-}
