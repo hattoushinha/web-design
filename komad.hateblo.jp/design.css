@@ -10,6 +10,7 @@ html, body {
     display: inline-block;
     float: none;
     margin-right: 0;
+    font-weight: bold;
 }
 
 .head_share_bookmark{
@@ -29,8 +30,12 @@ html, body {
     padding: 0;
 }
 
-.about {
+ul.about {
 	list-style-type: none;
+	margin: 0;
+    font-size: 90%;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
 }
 
 .hatena-module-title {
@@ -38,4 +43,72 @@ html, body {
 	border-left: solid 10px #222;
 	padding-left: 10px;
 	line-height: 1em;
+	font-family: "Montserrat";
+}
+
+.main-navigation-inner ul {
+    font-family: "Montserrat";
+}
+
+.date {
+	font-weight: bold;
+}
+
+.date::before {
+	font-family: "blogicon";
+	content: "";
+	font-size: 79%;
+	color: #383838;
+	position: relative;
+	top: 1px;
+}
+
+.date a {
+	color: #383838;
+	text-decoration: none;
+	font-size: 84%;
+	letter-spacing: 0.1em;
+	font-family: "quicksand",sans-serif;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  margin: 1.3em 0 0.8em 0;
+  line-height: 1.5;
+}
+.entry-content h1 {
+  font-size: 160%;
+}
+.entry-content h2 {
+  font-size: 150%;
+}
+.entry-content h3 {
+    font-size: 140%;
+    padding: 12px 0 12px 13px;
+    color: #4D517D;
+    padding-left: 13px;
+    line-height: 1.6em;
+    border-left: #4D517D solid 9px;
+  }
+.entry-content h4 {
+    font-size: 120%;
+    margin: 35px 0 20px;}
+
+.entry-content h4:before {
+      content: "\f029";
+    font-family: "blogicon";
+    position: relative;
+    padding-right: 10px;
+    color: #6C9FCE;
+}
+
+.entry-content h5 {
+  font-size: 110%;
+}
+.entry-content h6 {
+  font-size: 100%;
 }
