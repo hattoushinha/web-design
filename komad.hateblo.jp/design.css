@@ -2,6 +2,10 @@
 @import url("http://hatenablog.com/theme/6653586347149180725.css");
 /* </system> */
 
+html, body {
+    font-family: "Avenir Next","Quicksand",Arial,YuGothic,"Yu Gothic",游ゴシック体,"游ゴシック","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,"MS ゴシック","MS Gothic",sans-serif;
+}
+
 .categories a{
     display: inline-block;
     float: none;
@@ -27,4 +31,11 @@
 
 .about {
 	list-style-type: none;
+}
+
+.hatena-module-title {
+	font-size: 1.4em;
+	border-left: solid 10px #222;
+	padding-left: 10px;
+	line-height: 1em;
 }
